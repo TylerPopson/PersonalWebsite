@@ -48,6 +48,16 @@
     transition-all duration-150 scale-0 origin-top;
   }
 
+  .portfolio-item{
+    @apply flex flex-none bg-lavender w-96 h-96 ml-10 rounded-full items-center justify-center shadow-md;
+  }
+
+  .portfolio-link{
+    @apply flex items-center justify-center h-10 w-32 my-auto shadow-lg bg-surface1 text-text rounded-3xl
+    hover:rounded-sm hover:bg-sky hover:text-mantle
+    transition-all duration-150;
+  }
+
 }
 
 body{

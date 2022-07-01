@@ -42,6 +42,9 @@ module.exports = {
         vulfBold:["VulfMono-Bold"],
         vulfBoldItalic:["VulfMono-BoldItalic"]
       },
+      backgroundImage:{
+        'banner':"url('/src/img/macchiato.png')",
+      },
     },
   },
   plugins: [],
