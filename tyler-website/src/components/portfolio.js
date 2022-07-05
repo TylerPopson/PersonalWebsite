@@ -1,5 +1,4 @@
 //TODO
-// center all blocks
 // make blocks epand with more info on hover
 
 //import link icons from react-icons using the vs code icons
@@ -8,7 +7,7 @@ import {VscLink} from "react-icons/vsc";
 // a component that shows previous work that I have done
 function portfolio() {
     return ( 
-        <div className="flex flex-row w-screen h-96 mt-20">
+        <div className="flex flex-row w-screen h-96 mt-20 items-center justify-center">
 
             {/* title block */}
             <div className="portfolio-item">

@@ -1,10 +1,9 @@
 //TODO
-//center blocks
 
 //a component that list what tools and languages that i have experience working with
 function tools() {
     return ( 
-        <div className="flex flex-row w-screen h-96 mt-20">
+        <div className="flex flex-row w-screen h-96 mt-20 items-center justify-center">
 
             {/* a block that lists the programming thanguages that i have experience in */}
             <div className=" flex bg-gradient-to-r from-base to-sky right-0 w-1/3 h-96 rounded-r-full ml-10 r-0 items-center justify-center">

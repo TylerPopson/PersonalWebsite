@@ -52,7 +52,7 @@
   }
 
   .portfolio-item{
-    @apply flex flex-none bg-lavender w-96 h-96 ml-10 rounded-full items-center justify-center shadow-md;
+    @apply flex flex-none bg-blue w-96 h-96 ml-10 rounded-full items-center justify-center shadow-md;
   }
 
   .portfolio-link{

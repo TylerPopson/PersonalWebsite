@@ -9,7 +9,7 @@ import {VscAccount , VscCode , VscVm , VscCallIncoming} from "react-icons/vsc";
 function navbar() {
     return ( 
         <div>
-            <div className=" fixed left-0 top-0 w-screen h-12 bg-crust m-0 flex flex-row" >
+            <div className=" fixed left-0 top-0 w-screen h-12 bg-crust m-0 flex flex-row " >
 
                 {/* personal logo */}
                 <h1 className="text-left ml-5 text-3xl font-vulfBoldItalic text-text">Tyler Popson</h1>
