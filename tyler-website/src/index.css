@@ -2,6 +2,8 @@
 @tailwind components;
 @tailwind utilities;
 
+
+/* import fonts */
 @font-face {
   font-family: "VulfMono-Regular";
   src: url(../public/fonts/VulfMonoCode-Regular.otf);
@@ -35,6 +37,7 @@
   src: url(../public/fonts/VulfMonoCode-Italic.otf);
 }
 
+/* custom components */
 @layer components{
 
   .nav-icon{
@@ -59,7 +62,8 @@
   }
 
 }
-
+/* base css */
 body{
   background-color: #24273a;
+  overflow-x: hidden;
 }
