@@ -5,18 +5,26 @@ function contact() {
             <h1 className="text-mantle font-vulfBoldItalic text-5xl">Contact Me!</h1>
             <div className="flex flex-row items-center justify-center">
                 <ul className="text-text font-vulfItalic text-3xl mr-10">
-                    <li>Email:</li>
-                    <li>Linkedin:</li>
-                    <li>Github:</li>
+                    <li className="mb-3">Email:</li>
+                    <li className="mb-3">Linkedin:</li>
+                    <li className="mb-3">Github:</li>
                 </ul>
                 <ul className="text-text font-vulfItalic text-3xl">
-                    <li>tylerpopson@gmail.com</li>
-                    <li>https://www.linkedin.com/in/tylerpopson/</li>
-                    <li>https://github.com/TylerPopson</li>
+                    <li className="mb-3"><Conatactlink text={"tylerpospon@gmail.com"} link={"tylerpopson@gmail.com"} email={true}/></li>
+                    <li className="mb-3"><Conatactlink text={"www.linkedin.com"} link={"https://www.linkedin.com/in/tylerpopson/"} email={false}/></li>
+                    <li className="mb-3"><Conatactlink text={"www.github.com"} link={"https://github.com/TylerPopson"} email={false}/></li>
                 </ul>
             </div>
         </div>
-     );
+    );
 }
+
+const Conatactlink = ({text, link, email}) => (
+    <a href={email ? "mailto:" + link : link}>
+        <div className="contact-icon">
+            {text}
+        </div>
+    </a>
+)
 
 export default contact;

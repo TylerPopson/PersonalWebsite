@@ -61,6 +61,17 @@
     transition-all duration-150;
   }
 
+  .contact-icon{
+    @apply  flex items-center justify-center h-10 mx-2 px-3 my-auto shadow-lg bg-surface1 text-mauve rounded-3xl
+    hover:rounded-sm hover:bg-lavender hover:text-mantle
+    transition-all duration-150;
+  }
+
+  .contact-tootip{
+    @apply absolute w-auto p-2 m-2 min-w-max top-10 rounded-full shadow-md text-text bg-surface0 text-xs font-bold
+    transition-all duration-150 scale-0 origin-top;
+  }
+
 }
 /* base css */
 body{

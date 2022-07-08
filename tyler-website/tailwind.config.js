@@ -4,7 +4,7 @@ module.exports = {
 
   content: ["./src/**/*.{js,jsx,ts,tsx}",],
   theme: {
-
+// catppuccin color theme
     colors:{
       'rosewater':'#f4dbd6',
       'flamingo':'#f0c6c6',
@@ -34,7 +34,7 @@ module.exports = {
       'crust':'#181926',   
     
     },
-
+// vulf mono font
     extend: {
       fontFamily:{
         vulfRegular:["VulfMono-Regular"],
