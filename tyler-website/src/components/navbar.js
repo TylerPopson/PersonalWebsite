@@ -10,7 +10,7 @@ import { Link,animateScroll as scroll } from 'react-scroll'
 function navbar() {
     return ( 
         <div>
-            <div className=" fixed left-0 top-0 w-screen h-12 bg-crust m-0 flex flex-row " >
+            <div className=" fixed left-0 top-0 w-screen h-12 bg-crust m-0 flex flex-row items-center " >
 
                 {/* personal logo */}
                 <a onClick={() => (scroll.scrollToTop())} href="">

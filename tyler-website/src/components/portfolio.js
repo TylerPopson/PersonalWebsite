@@ -37,7 +37,7 @@ function Portfolio() {
             {/* wrent the local rental posting website (class project) */}
             <Examples 
             Title={"Wrent"} 
-            Link={"wrent.herokuapp.com"}
+            Link={"https://wrent.herokuapp.com"}
             Desc={"A local area private rental app"}
             Tools={["Reactjs", "Materialui", "Nodejs"]}/>
             
