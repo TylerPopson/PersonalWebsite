@@ -1,5 +1,6 @@
 {
   "name": "tyler-website",
+  "homepage": "https://www.tylerpopson.com",
   "version": "0.1.0",
   "private": true,
   "dependencies": {

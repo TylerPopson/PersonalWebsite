@@ -40,6 +40,7 @@
 /* custom components */
 @layer components{
 
+  /* navbar components */
   .nav-icon{
     @apply  flex items-center justify-center h-10 w-20 mx-2 my-auto shadow-lg bg-surface1 text-mauve rounded-3xl
     hover:rounded-sm hover:bg-lavender hover:text-mantle
@@ -51,8 +52,11 @@
     transition-all duration-150 scale-0 origin-top;
   }
 
+  /* portfoiio components */
   .portfolio-item{
-    @apply flex flex-none bg-blue w-96 h-96 ml-10 rounded-full items-center justify-center shadow-md;
+    @apply flex flex-none bg-blue w-96 h-96 mx-3 rounded-full items-center justify-center shadow-md
+    hover:flex-grow
+    transition-all;
   }
 
   .portfolio-link{
@@ -61,6 +65,17 @@
     transition-all duration-150;
   }
 
+  .portfolio-main{
+    @apply flex flex-col text-center items-center
+    transition-all;
+  }
+
+  .portfolio-info{
+    @apply flex basis-0 flex-col text-center items-center scale-0
+    transition-all;
+  }
+
+  /* contact components */
   .contact-icon{
     @apply  flex items-center justify-center h-10 mx-2 px-3 my-auto shadow-lg bg-surface1 text-mauve rounded-3xl
     hover:rounded-sm hover:bg-lavender hover:text-mantle
