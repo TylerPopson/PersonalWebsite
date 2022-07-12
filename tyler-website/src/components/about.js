@@ -3,7 +3,7 @@
 //A component that provides an overview of my experience and expertise
 function about() {
     return ( 
-        <div className="flex flex-row w-screen h-96 mt-20 items-center justify-center">
+        <div id="bio" className="flex flex-row w-screen h-96 mt-20 items-center justify-center">
             {/* personal bio */}
             <div className=" flex bg-gradient-to-r from-base to-peach right-0 w-2/3 h-96 rounded-r-full ml-10 r-0 items-center justify-center">
                 <div className="text-center">

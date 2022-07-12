@@ -71,8 +71,8 @@
   }
 
   .portfolio-info{
-    @apply flex basis-0 flex-col text-center items-center scale-0
-    transition-all;
+    @apply flex basis-0 flex-col text-center items-center scale-0 opacity-0 absolute
+    transition-transform ;
   }
 
   /* contact components */
